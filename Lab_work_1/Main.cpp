@@ -8,9 +8,7 @@ int main(int argc, char* argv[])
         std::cout << "Usage: " << argv[0] << " parallel | serial" << std::endl;
         return 1;
     }
-
     std::string mode = argv[1];
-
     if (mode == "parallel")
     {
 #pragma omp parallel
@@ -27,6 +25,5 @@ int main(int argc, char* argv[])
         std::cout << "Invalid mode: " << mode << std::endl;
         return 1;
     }
-
     return 0;
 }

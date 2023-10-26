@@ -9,7 +9,6 @@ double secondQE(double a, double b, double c)
 {
 	double two = 2.0;
 	double four = 4.0;
-
 	__asm {
 		fld b
 		fmul b
@@ -31,8 +30,6 @@ int main()
 	double c = 1;
 	double firstX = firstQE(a, b, c);
 	double secondX = secondQE(a, b, c);
-
 	std::cout << firstX << " " << secondX << std::endl;
-
 	return 0;
 }
