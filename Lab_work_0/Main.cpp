@@ -46,7 +46,7 @@ CONTINUE:
 
 int thirdTask()
 {
-	short int a = 2000000000;
+	short int a = 15000;
 	short int b = a;
 	short int sum = a + b;
 	__asm {
