@@ -62,7 +62,7 @@ CONTINUE:
 
 int fourthTask()
 {
-	long int a = 2000000000;
+	long int a = 200000000;
 	long int b = a;
 	long int firstSum = a + b;
 	long int secondSum;
